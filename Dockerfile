@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y \
                 automake \
                 autoconf \
                 pkg-config \
+                clang \
                 libcurl4-openssl-dev \
                 libjansson-dev \
                 libssl-dev \
