@@ -1,6 +1,6 @@
 FROM phusion/baseimage:0.9.19
 
-ENV xzc.suprnova.cc:1598
+ENV URL xzc.suprnova.cc:1598
 ENV PASSWORD x
 ENV USERNAME xzc
 #Install required packages
