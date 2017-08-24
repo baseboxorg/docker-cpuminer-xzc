@@ -1,7 +1,8 @@
 FROM phusion/baseimage:0.9.19
 
-MAINTAINER Wessel Pieterse <jimfromsa<at>gmail<dot>com>
-
+ENV xzc.suprnova.cc:1598
+ENV PASSWORD x
+ENV USERNAME xzc
 #Install required packages
 RUN apt-get update && apt-get install -y \
                 git \
